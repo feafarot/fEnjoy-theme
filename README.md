@@ -7,7 +7,7 @@ This is dark Visual Studio Code editor theme. It's clear and soft dark theme. Th
 
 If you find errors or have comments feel free to open an [issue on github](https://github.com/feafarot/fEnjoy-theme/issues)
 
-![Screenshot](https://raw.githubusercontent.com/feafarot/fEnjoy-theme/master/Screenshot1.png)
+![Screenshot](https://raw.githubusercontent.com/feafarot/fEnjoy-theme/master/Screenshot2.png)
 
 ## How to install
 

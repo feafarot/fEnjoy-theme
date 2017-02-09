@@ -1,0 +1,27 @@
+{
+    "name": "fenjoy-theme",
+    "displayName": "fEnjoy Theme",
+    "description": "Nice and soft dark theme VS Code theme. Target languages is TypeScript, JavaScript, CSS/Less, HTML, SQL. Other languages might work too.",
+    "version": "0.1.0",
+    "keywords": [
+        "theme",
+        "fenjoy",
+        "datk"
+    ],    
+    "publisher": "feafarot",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "fEnjoy",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fEnjoy.tmTheme"
+            }
+        ]
+    }
+}

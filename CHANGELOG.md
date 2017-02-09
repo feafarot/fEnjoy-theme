@@ -6,3 +6,6 @@ FEnjoy theme change log
 
 ## [0.1.1]
 ### Add icon and screnshot. Also add marketplace tag to readme file
+
+## [0.1.2]
+### Update README with new screenshots

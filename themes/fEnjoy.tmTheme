@@ -410,6 +410,28 @@ constant.other.rgb-value.css</string>
 				<string>#DEDEDE</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Decorators symbol</string>
+			<key>scope</key>
+			<string>punctuation.decorator.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#238AAD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Decorator usage</string>
+			<key>scope</key>
+			<string>meta.decorator entity.name.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2096BD</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>

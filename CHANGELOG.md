@@ -9,3 +9,6 @@ FEnjoy theme change log
 
 ## [0.1.2]
 ### Update README with new screenshots
+
+## [0.1.3]
+### Add TypeScript decorators colorization

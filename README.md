@@ -11,9 +11,6 @@ If you find errors or have comments feel free to open an [issue on github](https
 
 ![Screenshot](https://raw.githubusercontent.com/feafarot/fEnjoy-theme/master/Screenshot4.png)
 
-## How to install
-
-*TBD*
 
 ## Currently supported languages
 

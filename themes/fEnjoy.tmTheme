@@ -97,7 +97,7 @@
 			<key>name</key>
 			<string>Keyword &#x2f; primitive</string>
 			<key>scope</key>
-			<string>keyword, storage.modifier.ts, support.type.primitive.ts</string>
+			<string>keyword, storage.modifier.ts, support.type.primitive.ts, variable.language.super.js, keyword.operator.new.js, variable.language.this.js, storage.modifier.async.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -119,7 +119,8 @@
 			<key>name</key>
 			<string>Storage type</string>
 			<key>scope</key>
-			<string>storage.type</string>
+			<string>storage.type,
+storage.modifier.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -131,7 +132,8 @@
 			<string>Class name</string>
 			<key>scope</key>
 			<string>entity.name.class, entity.name.type.class,
-entity.name.type</string>
+entity.name.type,
+inherited-class.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -219,7 +221,7 @@ entity.name.type</string>
 			<key>name</key>
 			<string>Library class&#x2f;type</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>support.type, support.class, inherited-class.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -430,6 +432,17 @@ constant.other.rgb-value.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#2096BD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Inherited</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#1CB7E3</string>
 			</dict>
 		</dict>
 	</array>

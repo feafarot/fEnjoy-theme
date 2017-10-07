@@ -12,3 +12,6 @@ FEnjoy theme change log
 
 ## [0.1.3]
 ### Add TypeScript decorators colorization
+
+## [0.2.0]
+### Add JS ES6 support, fix some JS related issues

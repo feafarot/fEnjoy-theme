@@ -19,3 +19,7 @@ FEnjoy theme change log
 ## [1.0.0]
 ### Various improvements and fixes for TS code highlighting. Fix templete strings.
 ### Dimmed out punctuation to improve read-ability.
+
+## [1.0.1]
+### Fix super keyword highligh
+### Dimmed punctuation a little bit more

@@ -98,7 +98,8 @@
 			<string>Keyword &#x2f; primitive</string>
 			<key>scope</key>
 			<string>keyword,
-storage.modifier.ts, support.type.primitive.ts, variable.language.super.js, keyword.operator.new, variable.language.this, storage.modifier.async</string>
+storage.modifier.ts, support.type.primitive.ts, variable.language.super.js, keyword.operator.new, variable.language.this, storage.modifier.async,
+variable.language.super</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -277,7 +278,7 @@ meta.brace</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ADADAD</string>
+				<string>#8F8F8F</string>
 			</dict>
 		</dict>
 		<dict>

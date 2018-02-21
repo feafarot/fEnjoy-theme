@@ -1,16 +1,14 @@
 {
     "name": "fenjoy-theme",
     "displayName": "fEnjoy Theme",
-    "description": "Beautiful and not very contrast dark VS Code theme. Target languages is TypeScript, JavaScript, CSS/Less, HTML, SQL.",
-    "version": "1.0.0",
+    "description": "Beautiful and not very contrast dark VS Code theme. Target languages are TypeScript, JavaScript, CSS/Less, HTML, SQL.",
+    "version": "1.0.1",
     "keywords": [
         "theme",
         "dark",
         "fenjoy",
-        "js",
         "ts",
-        "css",
-        "less"
+        "js"
     ],
     "publisher": "feafarot",
     "engines": {

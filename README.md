@@ -1,4 +1,4 @@
-[![Marketplace](http://vsmarketplacebadge.apphb.com/version/feafarot.fenjoy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=feafarot.fenjoy-theme)
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version/feafarot.fenjoy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=feafarot.fenjoy-theme)
 
 # fEnjoy Theme
 ## Intro

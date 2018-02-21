@@ -30,7 +30,7 @@ export class A {
     }
 }
 
-export class B extends A {
+export class B<T2> extends A {
     private a = "asd";
 
     constructor() {
@@ -39,6 +39,7 @@ export class B extends A {
     }
 
     lambda = (x: number, y: B) => {
+        this.generic<B>(y);
         return;
     }
 

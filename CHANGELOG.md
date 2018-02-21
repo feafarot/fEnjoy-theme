@@ -15,3 +15,7 @@ FEnjoy theme change log
 
 ## [0.2.0]
 ### Add JS ES6 support, fix some JS related issues
+
+## [1.0.0]
+### Various improvements and fixes for TS code highlighting. Fix templete strings.
+### Dimmed out punctuation to improve read-ability.

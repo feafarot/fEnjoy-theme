@@ -19,11 +19,11 @@ export async function asFunc3() {
     let s = await asFunc2();
 }
 
-export class A {
+export class A2 {
     constructor() {}
 }
 
-export class B extends A {
+export class B extends A2 {
     a = "asd";
     constructor() {
         super();

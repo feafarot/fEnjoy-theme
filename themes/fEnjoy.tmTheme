@@ -97,7 +97,8 @@
 			<key>name</key>
 			<string>Keyword &#x2f; primitive</string>
 			<key>scope</key>
-			<string>keyword, storage.modifier.ts, support.type.primitive.ts, variable.language.super.js, keyword.operator.new.js, variable.language.this.js, storage.modifier.async.js</string>
+			<string>keyword,
+storage.modifier.ts, support.type.primitive.ts, variable.language.super.js, keyword.operator.new, variable.language.this, storage.modifier.async</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -133,7 +134,8 @@ storage.modifier.js</string>
 			<key>scope</key>
 			<string>entity.name.class, entity.name.type.class,
 entity.name.type,
-inherited-class.js</string>
+inherited-class.js,
+entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -167,8 +169,6 @@ inherited-class.js</string>
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#BEC2C0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -269,13 +269,15 @@ inherited-class.js</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keyword Operation</string>
+			<string>Keyword Operation, Punctuation</string>
 			<key>scope</key>
-			<string>keyword.operator, storage.type.function.arrow.ts</string>
+			<string>keyword.operator, storage.type.function.arrow.ts,
+punctuation,
+meta.brace</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DEDEDE</string>
+				<string>#ADADAD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -364,8 +366,6 @@ constant.other.rgb-value.css</string>
 			<string>cast.expr.ts</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#1B6A85</string>
 			</dict>
 		</dict>
 		<dict>
@@ -375,8 +375,6 @@ constant.other.rgb-value.css</string>
 			<string>storage.type.function.arrow.ts</string>
 			<key>settings</key>
 			<dict>
-				<key>foreground</key>
-				<string>#B32054</string>
 			</dict>
 		</dict>
 		<dict>
@@ -387,7 +385,7 @@ constant.other.rgb-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DBC7CE</string>
+				<string>#A6E0BD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -443,6 +441,63 @@ constant.other.rgb-value.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#1CB7E3</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Method declaration (async, super)</string>
+			<key>scope</key>
+			<string>storage.modifier.async</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5EA4E4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Reset Embed String Template</string>
+			<key>scope</key>
+			<string>meta.template.expression</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DEDEDE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>String Templete</string>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression,
+punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5EA4E4</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Generic Type Parameter</string>
+			<key>scope</key>
+			<string>meta.type.parameters.ts entity.name.type.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98B89D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Logical Keyword Override</string>
+			<key>scope</key>
+			<string>keyword.operator.comparison,
+keyword.operator.logical</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DEDEDE</string>
 			</dict>
 		</dict>
 	</array>

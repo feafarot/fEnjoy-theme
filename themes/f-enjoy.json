@@ -311,6 +311,13 @@
       }
     },
     {
+      "name": "React Embed Braces",
+      "scope": "punctuation.section.embedded.begin.tsx,\npunctuation.section.embedded.end.tsx",
+      "settings": {
+        "foreground": "#AD2D58"
+      }
+    },
+    {
       "scope": "token.info-token",
       "settings": {
         "foreground": "#6796e6"

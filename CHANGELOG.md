@@ -28,3 +28,6 @@ FEnjoy theme change log
 ### Add highlighting for React embeded curly braces to improve read-ability
 ### Add Peek window colors customization to match theme
 ### New theme build process [Dev only]
+
+## [1.1.1]
+### Hotfix React braces colors

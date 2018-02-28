@@ -501,6 +501,18 @@ keyword.operator.logical</string>
 				<string>#DEDEDE</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>React Embed Braces</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.tsx,
+punctuation.section.embedded.end.tsx</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AD2D58</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>D8D5E82E-3D5B-46B5-B38E-8C841C21347D</string>

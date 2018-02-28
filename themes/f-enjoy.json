@@ -1,0 +1,338 @@
+{
+  "type": "dark",
+  "colors": {
+    "editor.background": "#2e2e2e",
+    "editor.foreground": "#dedede",
+    "editor.selectionBackground": "#2f5263f0",
+    "editor.lineHighlightBackground": "#252526",
+    "editorCursor.foreground": "#dedede",
+    "editorWhitespace.foreground": "#3b3a32",
+    "peekViewTitle.background": "#252526",
+    "peekViewEditor.background": "#292929",
+    "peekViewEditor.matchHighlightBackground": "#1b3f4b",
+    "peekViewResult.background": "#252526",
+    "peekViewResult.matchHighlightBackground": "#142f38"
+  },
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#dededeff",
+        "background": "#2e2e2eff"
+      }
+    },
+    {
+      "name": "Comment",
+      "scope": "comment, comment.line.triple-slash.directive.ts",
+      "settings": {
+        "foreground": "#8A8A8A"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#D1E26A"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#D1E26A"
+      }
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "User-defined constant",
+      "scope": "constant.character, constant.other",
+      "settings": {
+        "foreground": "#2385A3"
+      }
+    },
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Keyword / primitive",
+      "scope": "keyword,\nstorage.modifier.ts, support.type.primitive.ts, variable.language.super.js, keyword.operator.new, variable.language.this, storage.modifier.async,\nvariable.language.super",
+      "settings": {
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Storage type",
+      "scope": "storage.type,\nstorage.modifier.js",
+      "settings": {
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class, entity.name.type.class,\nentity.name.type,\ninherited-class.js,\nentity.other.inherited-class",
+      "settings": {
+        "foreground": "#1CB7E3"
+      }
+    },
+    {
+      "name": "Inherited class",
+      "scope": "entity.other.inherited-class",
+      "settings": {}
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Function argument",
+      "scope": "variable.parameter",
+      "settings": {}
+    },
+    {
+      "name": "Tag name",
+      "scope": "entity.name.tag",
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Library class/type",
+      "scope": "support.type, support.class, inherited-class.js",
+      "settings": {
+        "foreground": "#1CB7E3"
+      }
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.other.variable",
+      "settings": {
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "settings": {
+        "background": "#F92672",
+        "fontStyle": "",
+        "foreground": "#F8F8F0"
+      }
+    },
+    {
+      "name": "Invalid deprecated",
+      "scope": "invalid.deprecated",
+      "settings": {
+        "background": "#AE81FF",
+        "foreground": "#F8F8F0"
+      }
+    },
+    {
+      "name": "Keyword Operation, Punctuation",
+      "scope": "keyword.operator, storage.type.function.arrow.ts,\npunctuation,\nmeta.brace",
+      "settings": {
+        "foreground": "#8F8F8F"
+      }
+    },
+    {
+      "name": "Expression keyword",
+      "scope": "keyword.operator.expression",
+      "settings": {
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "HTML Tag attribute value",
+      "scope": "string.quoted.double.html, string.quoted.single.html",
+      "settings": {
+        "foreground": "#1CB7E3"
+      }
+    },
+    {
+      "name": "Css selector",
+      "scope": "meta.selector.css, entity.name.tag.css,\nentity.other.attribute-name.class.css",
+      "settings": {
+        "foreground": "#D52A66"
+      }
+    },
+    {
+      "name": "Css pseudo class",
+      "scope": "entity.other.attribute-name.pseudo-class.css",
+      "settings": {
+        "foreground": "#BD2258"
+      }
+    },
+    {
+      "name": "Css unit / rgb",
+      "scope": "keyword.other.unit.css, \nconstant.other.rgb-value.css",
+      "settings": {
+        "foreground": "#D1E26A"
+      }
+    },
+    {
+      "name": "Css mixin",
+      "scope": "entity.other.attribute-name.class.mixin.css",
+      "settings": {
+        "foreground": "#AD2D58"
+      }
+    },
+    {
+      "name": "Css used mixin",
+      "scope": "meta.property-list.css entity.other.attribute-name.class.mixin.css",
+      "settings": {
+        "fontStyle": " italic"
+      }
+    },
+    {
+      "name": "TS Cast braces",
+      "scope": "cast.expr.ts",
+      "settings": {}
+    },
+    {
+      "name": "TS lambda arrow",
+      "scope": "storage.type.function.arrow.ts",
+      "settings": {}
+    },
+    {
+      "name": "TS namespace / module name",
+      "scope": "entity.name.type.module.ts",
+      "settings": {
+        "foreground": "#A6E0BD"
+      }
+    },
+    {
+      "name": "HTML special",
+      "scope": "constant.character.entity.html",
+      "settings": {
+        "foreground": "#D52A66"
+      }
+    },
+    {
+      "name": "JSON property",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#DEDEDE"
+      }
+    },
+    {
+      "name": "Decorators symbol",
+      "scope": "punctuation.decorator.ts",
+      "settings": {
+        "foreground": "#238AAD"
+      }
+    },
+    {
+      "name": "Decorator usage",
+      "scope": "meta.decorator entity.name.function",
+      "settings": {
+        "foreground": "#2096BD"
+      }
+    },
+    {
+      "name": "JS Inherited",
+      "scope": "entity.other.inherited-class.js",
+      "settings": {
+        "foreground": "#1CB7E3"
+      }
+    },
+    {
+      "name": "Method declaration (async, super)",
+      "scope": "storage.modifier.async",
+      "settings": {
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "Reset Embed String Template",
+      "scope": "meta.template.expression",
+      "settings": {
+        "foreground": "#DEDEDE"
+      }
+    },
+    {
+      "name": "String Templete",
+      "scope": "punctuation.definition.template-expression,\npunctuation.section.embedded",
+      "settings": {
+        "foreground": "#5EA4E4"
+      }
+    },
+    {
+      "name": "Generic Type Parameter",
+      "scope": "meta.type.parameters.ts entity.name.type.ts",
+      "settings": {
+        "foreground": "#98B89D"
+      }
+    },
+    {
+      "name": "Logical Keyword Override",
+      "scope": "keyword.operator.comparison,\nkeyword.operator.logical",
+      "settings": {
+        "foreground": "#DEDEDE"
+      }
+    },
+    {
+      "scope": "token.info-token",
+      "settings": {
+        "foreground": "#6796e6"
+      }
+    },
+    {
+      "scope": "token.warn-token",
+      "settings": {
+        "foreground": "#cd9731"
+      }
+    },
+    {
+      "scope": "token.error-token",
+      "settings": {
+        "foreground": "#f44747"
+      }
+    },
+    {
+      "scope": "token.debug-token",
+      "settings": {
+        "foreground": "#b267e6"
+      }
+    }
+  ]
+}

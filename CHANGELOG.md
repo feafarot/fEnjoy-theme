@@ -23,3 +23,8 @@ FEnjoy theme change log
 ## [1.0.1]
 ### Fix super keyword highligh
 ### Dimmed punctuation a little bit more
+
+## [1.1.0]
+### Add highlighting for React embeded curly braces to improve read-ability
+### Add Peek window colors customization to match theme
+### New theme build process [Dev only]

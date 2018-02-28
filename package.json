@@ -1,12 +1,12 @@
 {
     "name": "fenjoy-theme",
-    "displayName": "fEnjoy Theme",
-    "description": "Beautiful and not very contrast dark VS Code theme. Target languages are TypeScript, JavaScript, CSS/Less, HTML, SQL.",
-    "version": "1.0.1",
+    "displayName": "f-enjoy Theme",
+    "description": "Beautiful and not contrast dark VS Code theme. Target languages are TypeScript, JavaScript, CSS/Less, HTML, SQL.",
+    "version": "1.1.0",
     "keywords": [
         "theme",
         "dark",
-        "fenjoy",
+        "f-enjoy",
         "ts",
         "js"
     ],
@@ -24,10 +24,17 @@
     "contributes": {
         "themes": [
             {
-                "label": "fEnjoy",
+                "label": "f-enjoy",
                 "uiTheme": "vs-dark",
-                "path": "./themes/fEnjoy.tmTheme"
+                "path": "./themes/f-enjoy.json"
             }
         ]
+    },
+    "scripts": {
+        "build": "node ./src/build.js"
+    },
+    "devDependencies": {
+        "merge": "^1.2.0",
+        "tmtheme-to-json": "^0.1.3"
     }
 }

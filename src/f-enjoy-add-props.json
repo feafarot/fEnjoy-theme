@@ -1,0 +1,9 @@
+{
+	"colors": {
+		"peekViewTitle.background": "#252526",
+		"peekViewEditor.background": "#292929",
+		"peekViewEditor.matchHighlightBackground": "#1b3f4b",
+		"peekViewResult.background": "#252526",
+		"peekViewResult.matchHighlightBackground": "#142f38"
+	}
+}

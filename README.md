@@ -1,11 +1,13 @@
 [![Marketplace](https://vsmarketplacebadge.apphb.com/version/feafarot.fenjoy-theme.svg)](https://marketplace.visualstudio.com/items?itemName=feafarot.fenjoy-theme)
 
-# fEnjoy Theme
+# f-enjoy VSCode Dark Theme
 ## Intro
 
 This is dark Visual Studio Code editor theme. It's clear and soft. This theme were desigened mostly for TS/JS development.
 
-If you find errors or have suggestions feel free to open an [issue on github](https://github.com/feafarot/fEnjoy-theme/issues)
+Please leave a review for the theme if you like it [here](https://marketplace.visualstudio.com/items?itemName=feafarot.fenjoy-theme#review-details).
+
+If you find any issues or have suggestions feel free to open an [issue on github](https://github.com/feafarot/fEnjoy-theme/issues)
 
 ![Screenshot](https://raw.githubusercontent.com/feafarot/fEnjoy-theme/master/Screenshot3.png)
 

@@ -31,3 +31,6 @@ FEnjoy theme change log
 
 ## [1.1.1]
 ### Hotfix React braces colors
+
+## [1.1.2]
+### Fix tsx storage modifiers to color properly (like other keywords).

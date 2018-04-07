@@ -298,9 +298,16 @@
     },
     {
       "name": "Generic Type Parameter",
-      "scope": "meta.type.parameters.ts entity.name.type.ts",
+      "scope": "meta.type.parameters entity.name.type",
       "settings": {
         "foreground": "#98B89D"
+      }
+    },
+    {
+      "name": "Generic Type Parameter Inserted",
+      "scope": "meta.block meta.type.parameters entity.name.type, meta.type.annotation meta.type.parameters entity.name.type",
+      "settings": {
+        "foreground": "#1CB7E3"
       }
     },
     {

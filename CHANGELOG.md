@@ -17,7 +17,7 @@ FEnjoy theme change log
 ### Add JS ES6 support, fix some JS related issues
 
 ## [1.0.0]
-### Various improvements and fixes for TS code highlighting. Fix templete strings.
+### Various improvements and fixes for TS code highlighting. Fix templete strings
 ### Dimmed out punctuation to improve read-ability.
 
 ## [1.0.1]
@@ -33,4 +33,7 @@ FEnjoy theme change log
 ### Hotfix React braces colors
 
 ## [1.1.2]
-### Fix tsx storage modifiers to color properly (like other keywords).
+### Fix tsx storage modifiers to color properly (like other keywords)
+
+## [1.1.3]
+### Update TypeScript generics colorization (not complete yet due to VSCode limitations)

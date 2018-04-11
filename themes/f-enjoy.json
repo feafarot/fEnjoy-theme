@@ -64,7 +64,7 @@
     },
     {
       "name": "Keyword / primitive",
-      "scope": "keyword,\nstorage.modifier.ts, storage.modifier.tsx, support.type.primitive.ts, variable.language.super.js, keyword.operator.new, variable.language.this, storage.modifier.async,\nvariable.language.super",
+      "scope": "keyword, storage.modifier, storage.modifier.tsx, support.type.primitive, variable.language.super, keyword.operator.new, variable.language.this, storage.modifier.async,\nvariable.language.super",
       "settings": {
         "foreground": "#5EA4E4"
       }
@@ -85,9 +85,16 @@
     },
     {
       "name": "Class name",
-      "scope": "entity.name.class, entity.name.type.class,\nentity.name.type,\ninherited-class.js,\nentity.other.inherited-class",
+      "scope": "storage.type, entity.name.class, entity.name.type.class, entity.name.type, inherited-class.js, entity.other.inherited-class",
       "settings": {
         "foreground": "#1CB7E3"
+      }
+    },
+    {
+      "name": "Namespace C#",
+      "scope": "entity.name.type.namespace",
+      "settings": {
+        "foreground": "#dededeff"
       }
     },
     {

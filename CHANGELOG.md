@@ -37,3 +37,6 @@ FEnjoy theme change log
 
 ## [1.1.3]
 ### Update TypeScript generics colorization (not complete yet due to VSCode limitations)
+
+## [1.1.4]
+### Improve C# colorization (unfortunately still not gread due to VSCode limitations, described [here](https://github.com/Microsoft/vscode/issues/585))

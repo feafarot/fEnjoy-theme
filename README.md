@@ -18,6 +18,7 @@ If you find any issues or have suggestions feel free to open an [issue on github
 
 * TypeScript
 * JavaScript
+* C# (poor according to [this limitations](https://github.com/Microsoft/vscode/issues/585))
 * Css
 * Less
 * SQL

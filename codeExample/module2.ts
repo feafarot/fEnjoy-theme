@@ -51,13 +51,14 @@ export class B<T2> extends A {
         let cast = <any>param;
     }
 
-    generic2<TParam>(param: TParam, b: B<A>) {
+    generic2<TParam>(param: TParam, b: B<A>, b1: B<TParam>) {
         let cast = <any>param;
     }
 }
 
-export class B2<T1> extends B<A> {
-}
+interface C<T1, T2> {}
+
+export class B2<T1> extends B<A> implements C<T1, A> {}
 
 function func4() {
     const b = new B<A>();

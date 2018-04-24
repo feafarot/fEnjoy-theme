@@ -2,7 +2,7 @@
     "name": "fenjoy-theme",
     "displayName": "f-enjoy Theme",
     "description": "Beautiful and soft dark VS Code theme. Target languages are TypeScript, JavaScript, CSS/Less, HTML, SQL.",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "keywords": [
         "theme",
         "dark",

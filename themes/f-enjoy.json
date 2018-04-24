@@ -85,7 +85,7 @@
     },
     {
       "name": "Class name",
-      "scope": "storage.type, entity.name.class, entity.name.type.class, entity.name.type, inherited-class.js, entity.other.inherited-class",
+      "scope": "storage.type.cs, entity.name.class, entity.name.type.class, entity.name.type, inherited-class.js, entity.other.inherited-class",
       "settings": {
         "foreground": "#1CB7E3"
       }
@@ -300,14 +300,14 @@
       "name": "String Templete",
       "scope": "punctuation.definition.template-expression,\npunctuation.section.embedded",
       "settings": {
-        "foreground": "#5EA4E4"
+        "foreground": "#AD2D58", "_comment_old": {"foreground": "#5EA4E4"}
       }
     },
     {
       "name": "Generic Type Parameter",
       "scope": "meta.type.parameters entity.name.type",
       "settings": {
-        "foreground": "#98B89D"
+        "foreground": "#1CB7E3", "_comment_old": {"old_foreground": "#98B89D" }
       }
     },
     {
@@ -353,6 +353,12 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#b267e6"
+      }
+    },
+    {
+      "scope": "constant.language.import-export-all",
+      "settings": {
+        "foreground": "#AD2D58"
       }
     }
   ]

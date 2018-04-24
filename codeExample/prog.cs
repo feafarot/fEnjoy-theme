@@ -20,7 +20,7 @@ namespace Test.App
         public static IWebHost BuildWebHost(string[] args)
         {
             var host = WebHost.CreateDefaultBuilder(args).UseStartup<Startup>();
-            var debugPort = Environment.GetEnvironmentVariable("DEBUG_PORT");
+            string debugPort = Environment.GetEnvironmentVariable("DEBUG_PORT");
             if (!string.IsNullOrEmpty(debugPort))
             {
                 host = host.UseUrls($"http://localhost:{debugPort}");
@@ -40,5 +40,6 @@ namespace Test.App
     {
         ISomething Something { get; set; }
         ISomethingGeneric<T> Do(T arg);
+        string S { get; set; }
     }
 }

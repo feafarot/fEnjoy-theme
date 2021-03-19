@@ -30,6 +30,10 @@ export class A {
     }
 }
 
+function Component() {
+    return <></>;
+}
+
 export class B<T2> extends A {
     private a = "asd";
 
@@ -38,8 +42,8 @@ export class B<T2> extends A {
         this.a = "1";
     }
 
-    lambda = (x: number, y: B) => {
-        this.generic<B>(y);
+    lambda = (x: number, y: B<T2>) => {
+        this.generic<B<T2>>(y);
         return;
     }
 
@@ -48,6 +52,9 @@ export class B<T2> extends A {
     }
 
     generic<TParam>(param: TParam) {
-        let cast = <any>param;
+        let cast = param as any;
+        return <div>
+            <Component wer={param}></Component>
+        </div>;
     }
 }

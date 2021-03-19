@@ -56,9 +56,9 @@ export class B<T2> extends A {
     }
 }
 
-interface C<T1, T2> {}
+interface CInterface<T1, T2> {}
 
-export class B2<T1> extends B<A> implements C<T1, A> {}
+export class B2<T1> extends B<A> implements CInterface<T1, A> {}
 
 function func4() {
     const b = new B<A>();
